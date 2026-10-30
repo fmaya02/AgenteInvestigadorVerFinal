@@ -84,12 +84,6 @@ La primera compilación de PDF es lenta: Tectonic descarga paquetes solo esa vez
 
 Se generan al usar la app (no se versionan): `memoria.db`, `conversaciones.txt`, `rag/chroma_db/` y `output/`.
 
-## Personalización
-
-- **Otros documentos para el RAG:** reemplazá los de `rag/docs/` (`.md` o `.txt`), volvé a ejecutar `python -m rag.ingest` y actualizá la docstring de `search_knowledge_base` en `tools.py` y la frase correspondiente del prompt en `agent.py`, que describen el tema (y el idioma) de los documentos.
-- **Nueva skill:** creá `skills/<nombre>.md` que empiece con `---`, una línea `description: ...` y `---`; el modelo la carga con `load_skill`.
-- **Nueva tool:** definila con `@tool` en `tools.py` y agregala a `TOOLS`.
-
 ## Notas
 
 - El razonamiento del modelo es opcional: si no lo devuelve, la UI no muestra esos bloques y todo lo demás funciona igual.
