@@ -1,0 +1,22 @@
+# Núcleo
+langchain>=1.0
+langgraph>=1.0
+python-dotenv>=1.0
+
+# Proveedores de modelos
+langchain-google-genai>=3.0   # Google Gemini (principal)
+langchain-openai>=1.0         # LM Studio (servidor local compatible con OpenAI)
+langchain-openrouter==0.2.9
+
+# Tools
+langchain-tavily>=0.2   # Búsqueda web (Tavily)
+
+# UI
+streamlit>=1.40
+
+# Memoria Corto Plazo
+langgraph-checkpoint-sqlite>=3.0
+
+# RAG
+langchain-chroma>=1.0           # Base vectorial (ChromaDB)
+langchain-text-splitters>=1.0   # Chunking
