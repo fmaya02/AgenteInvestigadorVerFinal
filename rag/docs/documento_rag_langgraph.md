@@ -1,3 +1,11 @@
+> **Source and attribution**
+>
+> Derived from documentation in the [official LangGraph repository](https://github.com/langchain-ai/langgraph).
+>
+> **License:** MIT License. Copyright (c) 2024 LangChain, Inc.
+>
+> This document has been processed and adapted for use in this project's RAG system. See [`THIRD_PARTY_NOTICES.md`](../THIRD_PARTY_NOTICES.md) for the applicable license notice.
+
 # LangGraph Core Concepts
 
 ## Graphs
