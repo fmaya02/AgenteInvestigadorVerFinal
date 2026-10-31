@@ -100,8 +100,14 @@ Se generan al usar la app (no se versionan): `memoria.db`, `conversaciones.txt`,
 | Error 429 | Límite de peticiones del proveedor; esperá un minuto y repetí |
 | El agente no usa las tools | El modelo no soporta tool calling o es demasiado chico |
 
-## Créditos
+## Documentation sources and attribution
 
-Los documentos de `rag/docs/` provienen de los repositorios oficiales de [LangChain](https://github.com/langchain-ai/langchain) y [LangGraph](https://github.com/langchain-ai/langgraph) y pertenecen a sus autores; se rigen por la licencia de esos repositorios.
+The RAG knowledge base includes Markdown documents derived from the official LangChain and LangGraph documentation.
 
-Autor: *(Facundo Maya)*
+The source material is used under the applicable MIT License terms. Documents may have been reorganized, summarized, or reformatted to support retrieval and question answering.
+
+- [LangChain source repository](https://github.com/langchain-ai/langchain)
+- [LangGraph source repository](https://github.com/langchain-ai/langgraph)
+- [Third-party notices and license texts](./THIRD_PARTY_NOTICES.md)
+
+Copyright notices and applicable license terms are retained in the third-party notices file. This project is independent and is not officially affiliated with or endorsed by LangChain, Inc.
