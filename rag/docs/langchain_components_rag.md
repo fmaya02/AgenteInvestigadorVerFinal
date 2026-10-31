@@ -1,3 +1,11 @@
+> **Source and attribution**
+>
+> Derived from documentation in the [official LangChain repository](https://github.com/langchain-ai/langchain).
+>
+> **License:** MIT License. Copyright (c) LangChain, Inc.
+>
+> This document has been processed and adapted for use in this project's RAG system. See [`THIRD_PARTY_NOTICES.md`](../THIRD_PARTY_NOTICES.md) for the applicable license notice.
+
 # LangChain Components
 
 ## Overview
