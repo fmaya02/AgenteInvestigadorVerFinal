@@ -1,3 +1,11 @@
+> **Source and attribution**
+>
+> Derived from documentation in the [official LangGraph repository](https://github.com/langchain-ai/langgraph).
+>
+> **License:** MIT License. Copyright (c) 2024 LangChain, Inc.
+>
+> This document has been processed and adapted for use in this project's RAG system. See [`THIRD_PARTY_NOTICES.md`](../THIRD_PARTY_NOTICES.md) for the applicable license notice.
+
 # LangGraph Overview
 
 LangGraph is a low-level orchestration framework and runtime for building, managing, and deploying long-running, stateful agents. It gives developers fine-grained control to mix deterministic, hand-coded steps with LLM-driven agentic steps in the same graph, ensuring agents behave according to specific application requirements.
